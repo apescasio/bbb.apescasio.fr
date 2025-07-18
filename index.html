@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brick by brick.</title>
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brick by brick.">
+  <meta property="og:description" content="WE GO GYM/JIM/YIM.">
+  <meta property="og:site_name" content="bbb.apescasio.fr">
+  <meta property="og:url" content="http://bbb.apescasio.fr">
+  <meta property="og:image" content="http://bbb.apescasio.fr/icon.png">
+  <meta property="og:image:alt" content="Brick by brick">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Brick by brick.">
+  <meta name="twitter:description" content="WE GO GYM/JIM/YIM.">
+  <meta name="twitter:image"
+    content="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGZpbGw9IiMxYTFhMWEiLz48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0ibTIzMy45ODYgODUuMjYybC02My4zNyAyMS4xMUwzMzQuMzIgMTYwLjlsNjMuMzczLTIxLjExbC0xNjMuNzA3LTU0LjUzem0tODIuODUgMzMuNTkzdjU4LjA4OGwxNzQuMTg0IDU4LjAydi01OC4wODZsLTE3NC4xODMtNTguMDIyem0tMTggNTAuMjE1bC01My43MSAxNy44OWwxNjIuNjMgNTQuMTc1bDIyLjQxNy03LjQ2N2wtMTI1LjE4LTQxLjdhOSA5IDAgMCAxLTYuMTU2LTguNTM2em0tNzMuMTkgMzAuMzc1djU4LjA4OGwxMjIuMjg2IDQwLjczM3YtMzAuNzFhOSA5IDAgMCAxIC4wMTgtLjM1N2wuMDEtLjE5MmE5IDkgMCAwIDEgLjA3LS42OTdsLjAzLS4yMDVhOSA5IDAgMCAxIC4xMzQtLjY2bC4wNi0uMjM2YTkgOSAwIDAgMSAuMTktLjYxNmwuMDkyLS4yNDhhOSA5IDAgMCAxIC4yMzgtLjU2N2E5IDkgMCAwIDEgLjEzNS0uMjgyYTkgOSAwIDAgMSAuMjY1LS40ODhhOSA5IDAgMCAxIC4xOTctLjMyYTkgOSAwIDAgMSAuMjgtLjQxYTkgOSAwIDAgMSAuMjYtLjM0MmE5IDkgMCAwIDEgLjI88LS4zNDRhOSA5IDAgMCAxIC4zMTgtLjM0MmE5IDkgMCAwIDEgLjMtLjI5YTkgOSAwIDAgMSAuMzc0LS4zM2E5IDkgMCAwIDEgLjMtLjIzN2E5IDkgMCAwIDEgLjQzOC0uMzE1YTkgOSAwIDAgMSAuMjg2LS4xODJhOSA5IDAgMCAxIC41MDItLjI5YTkgOSAwIDAgMSAuMjYtLjEzM2E5IDkgMCAwIDEgLjU5LS4yNjJsLjIxLS4wODJhOSA5IDAgMCAxIC4zMTctLjEyMmwyNS4xOC04LjM4N3ptMzY0Ljg0NyAyNy4zNTJsLTg3LjYzIDI5LjE5bC0uMjQ3LjA3YTkgOSAwIDAgMS0uMzU1LjFhOSA5IDAgMCAxLS40NDMuMWE5IDkgMCAwIDEtLjQ3LjA4NWE5IDkgMCAwIDEtLjQuMDVhOSA5IDAgMCAxLS40OS4wMzhhOSA5IDAgMCAxLS40MjMuMDA3YTkgOSAwIDAgMS0uNDgtLjAxYTkgOSAwIDAgMS0uMzk3LS4wM2E5IDkgMCAwIDEtLjUwNC0uMDZhOSA5IDAgMCAxLS4zOC0uMDdhOSA5IDAgMCAxLS41Mi0uMTE3YTkgOSAwIDAgMS0uMzEtLjA4N2E5IDkgMCAwIDEtLjI2OC0uMDc3bC0zOC41MjYtMTIuODM0bC03My4yMyAyNC4zOTVsNjMuMzY4IDIxLjExbDE2My43MDctNTQuNTMyem0tMjI0LjU2IDUzLjI0MnY1OC4wODVsNzMuODUgMjQuNjAydi0zNi4yMjVsLjAwNS4wMDJWMzA0LjYzbC0yLjc1Mi0uOTE1bC0uMDE0LjAwNGwtNzEuMDktMjMuNjh6bS04NS4xNzQgMTQuODJMNTguNTcgMzEzLjY4bDYzLjM3MyAyMS4xMWw1Ni40ODUtMTguODE3bC02My4zNy0yMS4xMXpNMzkuMDk1IDMyNi4xN3Y1OC4wODhsNzMuODUgMjQuNlYzNTAuNzd6bTM5MC4yMDcgOS44MTZsLTYzLjM3NSAyMS4xMTJsMzYuMjgzIDEyLjA4Nmw2My4zNzQtMjEuMTEybC0zNi4yOC0xMi4wODZ6TTIxOS4wMyAzNjMuMzZ2MjEuODZsMTc0LjE4MyA1OC4wMjJ2LTU4LjA4OEwzMzcuNDUgMzY2LjU4bC01MS41MTYgMTcuMTYybC0uMTkuMDUzYTkgOSAwIDAgMS0uNDY3LjEzM2E5IDkgMCAwIDEtLjMzMi4wNzRhOSA5IDAgMCAxLS41ODguMTA3bC0uMjUzLjAzYTkgOSAwIDAgMS0uNjc0LjA1M2wtLjE5Ni4wMDRhOSA5IDAgMCAxLS42OTMtLjAxM2wtLjIwNi0uMDE2YTkgOSAwIDAgMS0uNzIzLS4wOWwtLjEyMi0uMDJhOSA5IDAgMCAxLS43OTUtLjE4bC0uMDI1LS4wMDdhOSA5IDAgMCAxLS40MzItLjEyMmwtNjEuMjA3LTIwLjM5eiIvPjwvc3ZnPg==">
+
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJtMjMzLjk4NiA4NS4yNjJsLTYzLjM3IDIxLjExTDMzNC4zMiAxNjAuOWw2My4zNzMtMjEuMTFsLTE2My43MDctNTQuNTN6bS04Mi44NSAzMy41OTN2NTguMDg4bDE3NC4xODQgNTguMDJ2LTU4LjA4NmwtMTc0LjE4My01OC4wMjJ6bS0xOCA1MC4yMTVsLTUzLjcxIDE3Ljg5bDE2Mi42MyA1NC4xNzVsMjIuNDE3LTcuNDY3bC0xMjUuMTgtNDEuN2E5IDkgMCAwIDEtNi4xNTYtOC41MzZ6bS03My4xOSAzMC4zNzV2NTguMDg4bDEyMi4yODYgNDAuNzMzdi0zMC43MWE5IDkgMCAwIDEgLjAxOC0uMzU3bC4wMS0uMTkyYTkgOSAwIDAgMSAuMDctLjY5N2wuMDMtLjIwNWE5IDkgMCAwIDEgLjEzNC0uNjZsLjA2LS4yMzZhOSA5IDAgMCAxIC4xOS0uNjE2bC4wOTItLjI0OGE5IDkgMCAwIDEgLjIzOC0uNTY3YTkgOSAwIDAgMSAuMTM1LS4yODJhOSA5IDAgMCAxIC4yNjUtLjQ4OGE5IDkgMCAwIDEgLjE5Ny0uMzJhOSA5IDAgMCAxIC4yOC0uNDFhOSA5IDAgMCAxIC4yNi0uMzQyYTkgOSAwIDAgMSAuMjg4LS4zNDRhOSA5IDAgMCAxIC4zMTgtLjM0MmE5IDkgMCAwIDEgLjMtLjI5YTkgOSAwIDAgMSAuMzc0LS4zM2E5IDkgMCAwIDEgLjMtLjIzN2E5IDkgMCAwIDEgLjQzOC0uMzE1YTkgOSAwIDAgMSAuMjg2LS4xODJhOSA5IDAgMCAxIC41MDItLjI5YTkgOSAwIDAgMSAuMjYtLjEzM2E5IDkgMCAwIDEgLjU5LS4yNjJsLjIxLS4wODJhOSA5IDAgMCAxIC4zMTctLjEyMmwyNS4xOC04LjM4N3ptMzY0Ljg0NyAyNy4zNTJsLTg3LjYzIDI5LjE5bC0uMjQ3LjA3YTkgOSAwIDAgMS0uMzU1LjFhOSA5IDAgMCAxLS40NDMuMWE5IDkgMCAwIDEtLjQ3LjA4NWE5IDkgMCAwIDEtLjQuMDVhOSA5IDAgMCAxLS40OS4wMzhhOSA5IDAgMCAxLS40MjMuMDA3YTkgOSAwIDAgMS0uNDgtLjAxYTkgOSAwIDAgMS0uMzk3LS4wM2E5IDkgMCAwIDEtLjUwNC0uMDZhOSA5IDAgMCAxLS4zOC0uMDdhOSA5IDAgMCAxLS41Mi0uMTE3YTkgOSAwIDAgMS0uMzEtLjA4N2E5IDkgMCAwIDEtLjI2OC0uMDc3bC0zOC41MjYtMTIuODM0bC03My4yMyAyNC4zOTVsNjMuMzY4IDIxLjExbDE2My43MDctNTQuNTMyem0tMjI0LjU2IDUzLjI0MnY1OC4wODVsNzMuODUgMjQuNjAydi0zNi4yMjVsLjAwNS4wMDJWMzA0LjYzbC0yLjc1Mi0uOTE1bC0uMDE0LjAwNGwtNzEuMDktMjMuNjh6bS04NS4xNzQgMTQuODJMNTguNTcgMzEzLjY4bDYzLjM3MyAyMS4xMWw1Ni40ODUtMTguODE3bC02My4zNy0yMS4xMXpNMzkuMDk1IDMyNi4xN3Y1OC4wODhsNzMuODUgMjQuNlYzNTAuNzd6bTM5MC4yMDcgOS44MTZsLTYzLjM3NSAyMS4xMTJsMzYuMjgzIDEyLjA4Nmw2My4zNzQtMjEuMTEybC0zNi4yOC0xMi4wODZ6TTIxOS4wMyAzNjMuMzZ2MjEuODZsMTc0LjE4MyA1OC4wMjJ2LTU4LjA4OEwzMzcuNDUgMzY2LjU4bC01MS41MTYgMTcuMTYybC0uMTkuMDUzYTkgOSAwIDAgMS0uNDY3LjEzM2E5IDkgMCAwIDEtLjMzMi4wNzRhOSA5IDAgMCAxLS41ODguMTA3bC0uMjUzLjAzYTkgOSAwIDAgMS0uNjc0LjA1M2wtLjE5Ni4wMDRhOSA5IDAgMCAxLS42OTMtLjAxM2wtLjIwNi0uMDE2YTkgOSAwIDAgMS0uNzIzLS4wOWwtLjEyMi0uMDJhOSA5IDAgMCAxLS43OTUtLjE4bC0uMDI1LS4wMDdhOSA5IDAgMCAxLS40MzItLjEyMmwtNjEuMjA3LTIwLjM5eiIvPjwvc3ZnPg==">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e5e7eb;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .playlist-container {
+      transition: all 0.3s ease;
+    }
+
+    .playlist-container:hover {
+      transform: scale(1.02);
+    }
+
+    iframe {
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center p-4">
+  <header class="text-center mb-12">
+    <div class="flex justify-center mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512" class="text-white">
+        <path fill="currentColor"
+          d="m233.986 85.262l-63.37 21.11L334.32 160.9l63.373-21.11l-163.707-54.53zm-82.85 33.593v58.088l174.184 58.02v-58.086l-174.183-58.022zm-18 50.215l-53.71 17.89l162.63 54.175l22.417-7.467l-125.18-41.7a9 9 0 0 1-6.156-8.536zm-73.19 30.375v58.088l122.286 40.733v-30.71a9 9 0 0 1 .018-.357l.01-.192a9 9 0 0 1 .07-.697l.03-.205a9 9 0 0 1 .134-.66l.06-.236a9 9 0 0 1 .19-.616l.092-.248a9 9 0 0 1 .238-.567a9 9 0 0 1 .135-.282a9 9 0 0 1 .265-.488a9 9 0 0 1 .197-.32a9 9 0 0 1 .28-.41a9 9 0 0 1 .26-.342a9 9 0 0 1 .288-.344a9 9 0 0 1 .318-.342a9 9 0 0 1 .3-.29a9 9 0 0 1 .374-.33a9 9 0 0 1 .3-.237a9 9 0 0 1 .438-.315a9 9 0 0 1 .286-.182a9 9 0 0 1 .502-.29a9 9 0 0 1 .26-.133a9 9 0 0 1 .59-.262l.21-.082a9 9 0 0 1 .317-.122l25.18-8.387zm364.847 27.352l-87.63 29.19l-.247.07a9 9 0 0 1-.355.1a9 9 0 0 1-.443.1a9 9 0 0 1-.47.085a9 9 0 0 1-.4.05a9 9 0 0 1-.49.038a9 9 0 0 1-.423.007a9 9 0 0 1-.48-.01a9 9 0 0 1-.397-.03a9 9 0 0 1-.504-.06a9 9 0 0 1-.38-.07a9 9 0 0 1-.52-.117a9 9 0 0 1-.31-.087a9 9 0 0 1-.268-.077l-38.526-12.834l-73.23 24.395l63.368 21.11l163.707-54.532zm-224.56 53.242v58.085l73.85 24.602v-36.225l.005.002V304.63l-2.752-.915l-.014.004l-71.09-23.68zm-85.174 14.82L58.57 313.68l63.373 21.11l56.485-18.817l-63.37-21.11zM39.095 326.17v58.088l73.85 24.6V350.77zm390.207 9.816l-63.375 21.112l36.283 12.086l63.374-21.112l-36.28-12.086zM219.03 363.36v21.86l174.183 58.022v-58.088L337.45 366.58l-51.516 17.162l-.19.053a9 9 0 0 1-.467.133a9 9 0 0 1-.332.074a9 9 0 0 1-.588.107l-.253.03a9 9 0 0 1-.674.053l-.196.004a9 9 0 0 1-.693-.013l-.206-.016a9 9 0 0 1-.723-.09l-.122-.02a9 9 0 0 1-.795-.18l-.025-.007a9 9 0 0 1-.432-.122l-61.207-20.39z" />
+      </svg>
+    </div>
+    <h1 class="text-4xl font-bold text-white mb-2">WE GO GYM/JIM/YIM.</h1>
+    <p class="text-lg text-gray-400">My fuel.</p>
+  </header>
+
+  <main class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- Early Morning Gym Playlist -->
+    <div class="playlist-container bg-gray-800 p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold text-gray mb-4 text-center">Early Morning Gym</h2>
+      <h2 class="text-2xl font-semibold text-white mb-4 text-center">« Brick by brick. »</h2>
+
+      <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLTKbnePaeauUWDiVTcfjjdsYvhl9jDfDw&rel=0&modestbranding=1"
+        title="Early Morning Gym Playlist"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      
+      <div class="mt-3 text-center">
+        <a href="https://www.youtube.com/playlist?list=PLTKbnePaeauUWDiVTcfjjdsYvhl9jDfDw" 
+           target="_blank" 
+           class="inline-flex items-center text-gray-500 hover:text-blue-400 text-sm underline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="mr-1">
+            <path fill="currentColor" d="M3 16v-2h8v2zm0-4v-2h12v2zm0-4V6h12v2zm13 13v-8l6 4z"/>
+          </svg>
+          Full Playlist
+        </a>
+      </div>
+    </div>
+
+    <!-- Late Night Gym Playlist -->
+    <div class="playlist-container bg-green-900 p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold text-gray mb-4 text-center">Late Night Gym</h2>
+      <h2 class="text-2xl font-semibold text-white mb-4 text-center">« Velja. »</h2>
+      <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLA9LMosdHfKtNdfhOs1A02IgKXXLkKBx-&rel=0&modestbranding=1"
+        title="Late Night Gym Playlist"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      
+      <div class="mt-3 text-center">
+        <a href="https://www.youtube.com/playlist?list=PLA9LMosdHfKtNdfhOs1A02IgKXXLkKBx-" 
+           target="_blank" 
+           class="inline-flex items-center text-gray-500 hover:text-blue-400 text-sm underline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="mr-1">
+            <path fill="currentColor" d="M3 16v-2h8v2zm0-4v-2h12v2zm0-4V6h12v2zm13 13v-8l6 4z"/>
+          </svg>
+          Full Playlist
+        </a>
+      </div>
+    </div>
+
+    <!-- 3:00 AM Gym Playlist -->
+    <div class="playlist-container bg-red-800 p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold text-gray mb-4 text-center">3:00 AM Gym</h2>
+      <h2 class="text-2xl font-semibold text-white mb-4 text-center">« DEMON MODE. »</h2>
+      <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLMKeTvsD7KjTP3uZZ000-TGAdZhUbK25v&rel=0&modestbranding=1"
+        title="3:00 AM Gym Playlist"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      
+      <div class="mt-3 text-center">
+        <a href="https://www.youtube.com/playlist?list=PLMKeTvsD7KjTP3uZZ000-TGAdZhUbK25v" 
+           target="_blank" 
+           class="inline-flex items-center text-gray-500 hover:text-blue-400 text-sm underline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="mr-1">
+            <path fill="currentColor" d="M3 16v-2h8v2zm0-4v-2h12v2zm0-4V6h12v2zm13 13v-8l6 4z"/>
+          </svg>
+          Full Playlist
+        </a>
+      </div>
+    </div>
+
+    <!-- Noon Calisthenics Playlist -->
+    <div class="playlist-container bg-violet-900 p-6 rounded-lg shadow-lg md:col-start-2">
+      <h2 class="text-2xl font-semibold text-gray mb-4 text-center">Noon Calisthenics</h2>
+      <h2 class="text-2xl font-semibold text-white mb-4 text-center">« Let him cook. »</h2>
+      <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLTKbnePaeauVu7v3-GzJ6nmdNPuCDbv0a&rel=0&modestbranding=1"
+        title="Noon Calisthenics Playlist"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      
+      <div class="mt-3 text-center">
+        <a href="https://www.youtube.com/playlist?list=PLTKbnePaeauVu7v3-GzJ6nmdNPuCDbv0a" 
+           target="_blank" 
+           class="inline-flex items-center text-gray-500 hover:text-blue-400 text-sm underline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="mr-1">
+            <path fill="currentColor" d="M3 16v-2h8v2zm0-4v-2h12v2zm0-4V6h12v2zm13 13v-8l6 4z"/>
+          </svg>
+          Full Playlist
+        </a>
+      </div>
+    </div>
+     <!-- Afternoon Calisthenics Playlist -->
+    <div class="playlist-container bg-gray-500 p-6 rounded-lg shadow-lg md:col-start-2">
+      <h2 class="text-2xl font-semibold text-gray mb-4 text-center">Afternoon Calisthenics</h2>
+      <h2 class="text-2xl font-semibold text-white mb-4 text-center">« Lock in. »</h2>
+      <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLTKbnePaeauXMsoufQtQEHK6k55qP-0bR&rel=0&modestbranding=1"
+        title="Afternoon Calisthenics Playlist"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      
+      <div class="mt-3 text-center">
+        <a href="https://www.youtube.com/playlist?list=PLTKbnePaeauXMsoufQtQEHK6k55qP-0bR" 
+           target="_blank" 
+           class="inline-flex items-center text-gray-500 hover:text-blue-400 text-sm underline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="mr-1">
+            <path fill="currentColor" d="M3 16v-2h8v2zm0-4v-2h12v2zm0-4V6h12v2zm13 13v-8l6 4z"/>
+          </svg>
+          Full Playlist
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-12 text-center text-gray-500">
+    <p>Hosted at <a href="http://bbb.apescasio.fr" class="hover:text-blue-400 underline">bbb.apescasio.fr</a></p>
+    <p class="text-center text-sm lg:text-base">
+      &copy; <span id="current-year"></span> Aaron Pescasio /
+      <a href="https://apescasio.fr/" target="_blank" class="hover:text-blue-400 underline">
+        apescasio.fr
+      </a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
